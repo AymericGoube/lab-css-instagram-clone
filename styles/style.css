@@ -7,4 +7,94 @@ light blue: #1c5380
 body {
   font: 200 16px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
   margin: 0;
+  height: 100vh;
+}
+
+header {
+  background-image: url(/images/bgtile.png);
+  background-repeat: repeat;
+  height: 20rem;
+}
+#pageContent {
+  display: flex;
+  justify-content: center;
+  padding: 7rem;
+  position: relative;
+  top: -20rem;
+  right: 5rem;
+  width: 100%;
+}
+
+#leftSection {
+  width: 25rem;
+  height: 35rem;
+  background-image: url(../images/phones.png);
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+#rightSection {
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  width: 40vw;
+}
+#topOfRightSection {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+#topOfRightSection button {
+  background-color: #7093b1;
+  display: flex;
+  align-items: center;
+}
+#topOfRightSection button {
+  color: white;
+  padding: 5px;
+}
+#topOfRightSection button img {
+  margin-right: 1rem;
+}
+#mainContent {
+  background-image: url(/images/frame.png);
+  background-repeat: no-repeat;
+  background-size: contain;
+  padding: 3rem;
+  display: flex;
+  flex-direction: column;
+}
+#mainContent h1 {
+  color: #06365f;
+  width: 50%;
+}
+#differentLink {
+  display: flex;
+}
+#differentLink img {
+  margin-right: 2rem;
+}
+
+footer {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  position: relative;
+  top: -28rem;
+}
+footer ul {
+  display: flex;
+  flex-direction: row;
+  list-style: none;
+  width: 50%;
+  justify-content: space-between;
+}
+footer ul li {
+  display: flex;
+  text-transform: capitalize;
+  text-decoration: none;
+}
+footer ul li a {
+  text-decoration: none;
+  font-weight: bold;
+  color: #7998b2;
 }
